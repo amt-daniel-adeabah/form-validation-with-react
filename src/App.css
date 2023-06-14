@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(119, 6, 129, 0.7),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url("https://marketplace.canva.com/EAFHm4JWsu8/1/0/1600w/canva-pink-landscape-desktop-wallpaper-HGxdJA_xIx0.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 20px 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: purple;
+  text-align: center;  
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background: rebeccapurple;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
